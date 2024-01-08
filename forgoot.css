@@ -1,0 +1,82 @@
+.base{
+    width: 300px;
+    height: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#logo{
+padding-left: 20px;
+margin-top:20px;
+height:38px;
+width: 50px;
+
+}
+#button2{
+width: 80px;
+height:35px;
+margin-top:10px;
+background:#498af2;
+font-family:verdana;
+font-size:14px;
+color:white;
+border-radius:5px 5px 5px 5px;
+border-width: 1px;
+border-style:solid;
+border-color: gray;
+cursor:pointer;
+outline:none;
+
+}
+#logo2{
+width: 300px;
+height: 200px;
+margin-left: 150px;
+margin-right: 150px;
+margin-top:10px;
+height:27px;
+width:45px;
+}
+#form1{
+margin-top:25px;
+width:355px;
+height:380px;
+padding-top:40px;
+background:#f7f7f7;
+box-shadow: 0px 1px 1px 1px #c6c1c1;
+
+}
+#logo1{
+padding-left: 10px;
+margin-top:10px;
+height:27px;
+width:50px;
+}
+#info2{
+padding-left: 60px;
+margin-top: 20px;    
+font-family: 'Open Sans', sans-serif;
+font-size:18px;
+font-weight:bold;
+color:#000000;
+}
+#info5{
+    padding-left: 45px;
+margin-top:30px;
+font-size:13px;
+font-family: 'Open Sans', sans-serif;
+color:#000000;
+font-weight:bold;
+}
+body {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
